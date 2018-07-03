@@ -30,6 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
+data_dir: _my_data
 collections:
   people:
     output: true
