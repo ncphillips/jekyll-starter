@@ -29,14 +29,12 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-menus
 
 data_dir: _my_data
 collections:
   people:
     output: true
-
-gems:
-  - jekyll-menus
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
