@@ -1,4 +1,0 @@
----
-title: Ignored by Forestry
----
-Test
