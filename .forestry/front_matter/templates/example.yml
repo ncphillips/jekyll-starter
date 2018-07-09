@@ -1,0 +1,17 @@
+---
+label: Example
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+  hidden: false
+  description: A description
+  default: Fun
+- type: boolean
+  name: cool_stuff
+  label: Cool Stuff?
+  default: true
