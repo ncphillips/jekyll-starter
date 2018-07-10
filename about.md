@@ -16,3 +16,6 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+{%- if site.webmaster.gtm and jekyll.environment == "testing" or jekyll.environment == "production" -%}
+
