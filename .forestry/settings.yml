@@ -1,11 +1,14 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: "/admin"
+admin_path: "/admax"
 webhook_url: 
 collections:
 - path: _posts
   label: Posts
+  create: all
+- path: _pages
+  label: Pages
   create: all
 - path: _people
   label: People
