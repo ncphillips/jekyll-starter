@@ -13,6 +13,8 @@ collections:
 - path: _people
   label: People
   create: all
+  templates:
+  - example
 - path: ''
   label: Pages
   create: none
