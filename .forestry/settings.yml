@@ -4,18 +4,18 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 collections:
-- path: _pages
+- path: _pages/**/*
   label: Pages
   create: all
-- path: _posts
+- path: "/{_posts,_drafts}/**/*"
   label: Posts
   create: all
-- path: _people
+- path: _people/**/*
   label: People
   create: all
   templates:
   - example
-- path: ''
+- path: "/**/*"
   label: Pages
   create: none
 upload_dir: uploads
