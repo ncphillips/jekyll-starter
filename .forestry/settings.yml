@@ -7,17 +7,17 @@ collections:
 - path: _pages/**/*
   label: Pages
   create: all
-- path: "/{_posts,_drafts}/**/*"
+- path: "{_posts,_drafts}/**/*"
   label: Posts
+  create: all
+- path: "**/*"
+  label: Pages
   create: all
 - path: _people/**/*
   label: People
   create: all
   templates:
   - example
-- path: "/**/*"
-  label: Pages
-  create: none
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
