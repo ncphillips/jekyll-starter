@@ -13,9 +13,6 @@ collections:
 - path: "{_posts,_drafts}/**/*"
   label: Posts
   create: all
-- path: "**/*"
-  label: Pages
-  create: all
 - path: _people/**/*
   label: People
   create: all
