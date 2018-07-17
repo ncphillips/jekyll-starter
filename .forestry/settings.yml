@@ -13,7 +13,7 @@ collections:
 - path: "{_posts,_drafts}/**/*"
   label: Posts
   create: all
-- path: _people/*
+- path: _people/**/*
   label: People
   create: documents
   templates:
