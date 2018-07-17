@@ -4,9 +4,9 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 collections:
-- path: _custom/cars/*
-  label: Custom Cars
-  create: documents
+- path: "**/*"
+  label: Pages
+  create: all
 - path: _pages/**/*
   label: Pages
   create: all
@@ -15,11 +15,6 @@ collections:
   create: all
 - path: _people/*
   label: People
-  create: documents
-  templates:
-  - example
-- path: _people/sub-people/*
-  label: Sub-People
   create: documents
   templates:
   - example
