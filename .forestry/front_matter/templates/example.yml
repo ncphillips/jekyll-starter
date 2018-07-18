@@ -21,7 +21,7 @@ fields:
   description: toot toot
   config:
     required: true
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: html-blocks
       flavour: CommonMark
