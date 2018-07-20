@@ -9,3 +9,6 @@ fields:
 - type: boolean
   name: cool_person
   label: Cool Person?
+files:
+- _people/nolan.md
+- _people/sub-people/Matt.md
