@@ -7,6 +7,7 @@ collections:
 - path: _people
   label: People
   create: all
+  default_front_matter_template: people
 - path: _pages
   label: Pages
   create: all
