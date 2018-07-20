@@ -2,6 +2,10 @@
 layout: page
 title: About
 permalink: "/about/"
+name: ''
+cool_person: false
+a_text_area: tset
+number_of_stuff: 1
 
 ---
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

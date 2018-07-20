@@ -10,5 +10,4 @@ fields:
   name: cool_person
   label: Cool Person?
 pages:
-- about.md
 - _people/nolan.md
