@@ -6,3 +6,6 @@ fields:
 - type: text
   name: name
   label: Name
+- type: boolean
+  name: cool_person
+  label: Cool Person?
