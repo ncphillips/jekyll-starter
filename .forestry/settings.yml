@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: "/admin-cake"
-webhook_url: 
+admin_path: "/admin-cake-2"
+webhook_url: ''
 collections:
 - path: _people
   label: People
