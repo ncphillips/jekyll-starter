@@ -24,8 +24,12 @@ collections:
   match: "*"
 - type: directory
   path: _custom/cars
-  label: Cars
-  match: "*"
+  label: French Cars
+  match: "*.fr.md"
+- type: directory
+  path: _custom/cars
+  label: English Cars
+  match: "*.en.md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
