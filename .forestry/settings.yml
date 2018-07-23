@@ -19,8 +19,12 @@ collections:
   label: Posts
   create: all
 - type: directory
-  path: _custom
-  label: Other
+  path: _custom/bikes
+  label: Bikes
+  match: "*"
+- type: directory
+  path: _custom/cars
+  label: Cars
   match: "*"
 upload_dir: uploads
 public_path: "/uploads"
