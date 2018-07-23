@@ -18,10 +18,10 @@ collections:
   path: _posts
   label: Posts
   create: all
-- type: jekyll-pages
-  path: ''
-  label: Pages
-  create: all
+- type: directory
+  path: _custom
+  label: Other
+  match: *
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
