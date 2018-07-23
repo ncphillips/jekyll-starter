@@ -4,20 +4,18 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 collections:
-- path: "**/*"
+- path: _people
+  label: People
+  create: all
+- path: _pages
   label: Pages
   create: all
-- path: _pages/**/*
-  label: Pages
-  create: all
-- path: "{_posts,_drafts}/**/*"
+- path: _posts
   label: Posts
   create: all
-- path: _people/**/*
-  label: People
-  create: documents
-  templates:
-  - example
+- path: ''
+  label: Pages
+  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
