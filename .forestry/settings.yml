@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: "/admin1"
+admin_path: "/admin"
 webhook_url: ''
 collections:
 - type: directory
@@ -20,7 +20,6 @@ collections:
   - example
   - people
 - type: jekyll-posts
-  path: _blog
   label: Posts
   create: all
 - type: jekyll-pages
