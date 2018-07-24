@@ -23,7 +23,7 @@ collections:
   label: Posts
   create: all
 - type: jekyll-pages
-  path: ''
+  path: '_farts'
   label: Pages
   create: all
 upload_dir: uploads
