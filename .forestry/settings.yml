@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: "/admin"
+admin_path: "/admin/"
 webhook_url: ''
 collections:
 - type: directory
@@ -23,7 +23,6 @@ collections:
   label: Posts
   create: all
 - type: jekyll-pages
-  path: '_farts'
   label: Pages
   create: all
 upload_dir: uploads
