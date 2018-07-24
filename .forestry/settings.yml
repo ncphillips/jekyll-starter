@@ -20,7 +20,7 @@ collections:
   - example
   - people
 - type: jekyll-posts
-  path: _posts
+  path: _blog
   label: Posts
   create: all
 - type: jekyll-pages
