@@ -26,6 +26,7 @@ collections:
   path: _custom/cars
   label: French Cars
   match: "*.fr.md"
+  new_doc_ext: ".fr.md"
 - type: directory
   path: _custom/cars
   label: English Cars
