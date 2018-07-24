@@ -8,3 +8,4 @@ fields:
   label: Title
 pages:
 - _custom/cars/pasat.fr.md
+- _people/pizza-time.md
