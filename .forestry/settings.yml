@@ -4,16 +4,20 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 collections:
-- path: _posts
+- type: directory
+  path: _posts
   label: Posts
   create: all
-- path: _pages
+- type: directory
+  path: _pages
   label: Pages
   create: all
-- path: _people
+- type: directory
+  path: _people
   label: People
   create: all
-- path: ''
+- type: directory
+  path: ''
   label: Pages
   create: none
 upload_dir: uploads
