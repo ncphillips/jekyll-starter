@@ -21,15 +21,18 @@ collections:
 - type: directory
   path: _custom/bikes
   label: Bikes
+  create: all
   match: "*"
 - type: directory
   path: _custom/cars
   label: French Cars
+  create: all
   match: "*.fr.md"
-  new_doc_ext: ".fr.md"
+  new_doc_ext: fr.md
 - type: directory
   path: _custom/cars
   label: English Cars
+  create: all
   match: "*.en.md"
 upload_dir: uploads
 public_path: "/uploads"
