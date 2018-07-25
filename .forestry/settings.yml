@@ -22,7 +22,7 @@ sections:
   create: none
 - type: directory
   path: _jerk_face
-  label: Jekyll Pages
+  label: Jekyll Page Farts
   create: all
   match: "*"
 upload_dir: uploads
