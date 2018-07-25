@@ -4,7 +4,7 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: directory
+- type: jekyll-posts
   path: _posts
   label: Posts
   create: all
@@ -19,7 +19,7 @@ sections:
   label: People
   create: all
   match: "**/*"
-- type: directory
+- type: jekyll-pages
   path: ''
   label: Pages
   create: none
