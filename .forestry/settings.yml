@@ -16,7 +16,7 @@ sections:
   match: "**/*"
 - type: directory
   path: _people
-  label: People
+  label: Pages
   create: all
   match: "**/*"
 - type: jekyll-pages
