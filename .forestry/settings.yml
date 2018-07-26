@@ -20,11 +20,6 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: none
-- type: directory
-  path: _jerk_face
-  label: Jekyll Page Farts
-  create: all
-  match: "*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
