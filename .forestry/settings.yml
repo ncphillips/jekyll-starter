@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: four
+  path: four_doors
   label: Four
   create: all
   match: "**/*"
