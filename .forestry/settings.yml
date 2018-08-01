@@ -15,7 +15,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: two
+  path: two_two
   label: Two
   create: all
   match: "**/*"
