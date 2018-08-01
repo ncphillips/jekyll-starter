@@ -1,9 +1,25 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: "/admin"
+admin_path: "/edit"
 webhook_url: 
-sections: 
+sections:
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: directory
+  path: _pages
+  label: Pages
+  create: all
+  match: "**/*"
+- type: directory
+  path: _people
+  label: People
+  create: all
+  match: "**/*"
+- type: jekyll-pages
+  label: Pages
+  create: none
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
