@@ -9,6 +9,9 @@ sections:
   label: People
   create: all
   match: "**/*"
+- type: jekyll-posts
+  label: Posts
+  create: all
 - type: directory
   path: one
   label: ONe
@@ -24,9 +27,6 @@ sections:
   label: there
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
   path: _pages
   label: Misc.
