@@ -13,11 +13,6 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: ther
-  label: there
-  create: all
-  match: "**/*"
-- type: directory
   path: _pages
   label: Misc.
   create: all
