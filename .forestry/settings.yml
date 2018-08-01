@@ -19,6 +19,10 @@ sections:
   label: there
   create: all
   match: "**/*"
+- type: jekyll-posts
+  label: Posts
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
