@@ -21,7 +21,7 @@ sections:
   match: "**/*"
 - type: directory
   path: _cats
-  label: Cats
+  label: Pussy Cats 
   create: all
   match: "**/*"
 - type: jekyll-pages
