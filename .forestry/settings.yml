@@ -13,11 +13,6 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: one
-  label: ONe
-  create: all
-  match: "**/*"
-- type: directory
   path: two
   label: Two
   create: all
