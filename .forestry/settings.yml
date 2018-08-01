@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: "/edit"
 webhook_url: 
 sections:
-- type: directory
-  path: _cats
-  label: Cats
-  create: all
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
@@ -17,14 +12,14 @@ sections:
   label: Pages
   create: all
   match: "**/*"
+- type: jekyll-pages
+  label: Pages
+  create: none
 - type: directory
   path: _people
   label: People
   create: all
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: none
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
