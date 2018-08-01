@@ -5,6 +5,11 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: _people
+  label: People
+  create: all
+  match: "**/*"
+- type: directory
   path: one
   label: ONe
   create: all
@@ -25,11 +30,6 @@ sections:
 - type: directory
   path: _pages
   label: Misc.
-  create: all
-  match: "**/*"
-- type: directory
-  path: _people
-  label: People
   create: all
   match: "**/*"
 upload_dir: uploads
