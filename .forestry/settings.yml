@@ -10,13 +10,13 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: two
-  label: Two
+  path: four
+  label: Four
   create: all
   match: "**/*"
 - type: directory
-  path: four
-  label: Four
+  path: two
+  label: Two
   create: all
   match: "**/*"
 upload_dir: uploads
