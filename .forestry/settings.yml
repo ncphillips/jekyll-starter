@@ -8,13 +8,13 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: _pages
-  label: Misc.
+  path: _people
+  label: People
   create: all
   match: "**/*"
 - type: directory
-  path: _people
-  label: People
+  path: _pages
+  label: Misc.
   create: all
   match: "**/*"
 upload_dir: uploads
