@@ -7,6 +7,6 @@ fields:
   name: title
   label: Title
 pages:
-- _custom/cars/pasat.fr.md
 - _people/pizza-time.md
+- _custom/cars/pasat.fr.md
 - _custom/cars/dinky.fr.md
