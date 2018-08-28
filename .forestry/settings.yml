@@ -10,11 +10,6 @@ sections:
   create: all
   match: "**/*"
   exclude: 
-- type: jekyll-pages
-  label: Pages
-  create: all
-  match: "**/*"
-  exclude: 
 - type: jekyll-posts
   label: Posts
   create: all
