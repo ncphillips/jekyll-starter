@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: "/admin-3"
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages
-  create: all
-  match: "**/*"
 - type: directory
   path: _people
   label: People
@@ -36,6 +32,10 @@ sections:
   create: all
   match: "*.en.md"
   exclude: 
+- type: jekyll-pages
+  label: Pages
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
