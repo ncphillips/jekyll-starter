@@ -19,7 +19,6 @@ sections:
   label: People
   create: all
   match: "**/*"
-  exclude: _drafts/*
 - type: jekyll-pages
   label: Pages
   create: none
