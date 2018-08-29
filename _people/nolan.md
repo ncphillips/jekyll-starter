@@ -1,6 +1,8 @@
 ---
-menu: 
-- main
-- header
 title: Nolan
+menu:
+  main: {}
+  header: {}
+published: false
+
 ---
