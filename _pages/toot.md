@@ -1,4 +1,0 @@
----
-title: Toot
-menu: main
----
