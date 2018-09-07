@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/admax"
 webhook_url: 
 sections:
+- type: document
+  path: _my_data/subdir/names.json
+  label: Names
+  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
