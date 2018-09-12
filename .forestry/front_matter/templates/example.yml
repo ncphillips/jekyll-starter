@@ -10,7 +10,7 @@ fields:
     required: true
   hidden: false
   description: A description
-  default: Fun
+  default: Funstuff
 - type: boolean
   name: cool_stuff
   label: Cool Stuff?
