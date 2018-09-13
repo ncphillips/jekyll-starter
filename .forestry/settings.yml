@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: "/admax"
 webhook_url: 
 sections:
+- type: document
+  path: _pages/about.md
+  label: About
+  match: "**/*"
+  read_only: true
 - type: directory
   path: _my_data
   label: Datafiles
