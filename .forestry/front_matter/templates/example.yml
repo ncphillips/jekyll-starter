@@ -41,7 +41,7 @@ fields:
       section: ''
       file: _my_data/colors.yml
       path: Colors
-  label: Something
+  label: Page Reference
   name: something
   default: _my_data/subdir/names.json
 pages:
