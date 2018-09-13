@@ -5,9 +5,9 @@ admin_path: "/admax"
 webhook_url: 
 sections:
 - type: document
-  path: about.md
+  path: README.md
   label: About
-  read_only: false
+  read_only: true
 - type: directory
   path: _my_data
   label: Datafiles
