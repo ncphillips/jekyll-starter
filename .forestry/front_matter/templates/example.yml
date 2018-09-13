@@ -38,7 +38,7 @@ fields:
   config:
     source:
       type: pages
-      section: datafiles
+      section: ''
       file: _my_data/colors.yml
       path: Colors
   label: Something
