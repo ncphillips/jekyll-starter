@@ -5,7 +5,7 @@ admin_path: "/admax"
 webhook_url: 
 sections:
 - type: document
-  path: README.md
+  path: "~wooo.md"
   label: About
   read_only: true
 - type: directory
