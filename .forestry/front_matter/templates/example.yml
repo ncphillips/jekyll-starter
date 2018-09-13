@@ -37,12 +37,12 @@ fields:
 - type: select
   config:
     source:
-      type: documents
+      type: pages
       section: datafiles
       file: _my_data/colors.yml
       path: Colors
   label: Something
   name: something
-  default: green
+  default: _my_data/subdir/names.json
 pages:
 - _posts/my-draft-page.md
