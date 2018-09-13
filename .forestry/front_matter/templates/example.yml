@@ -34,5 +34,15 @@ fields:
     max: '3'
     step: '1'
     required: true
+- type: select
+  config:
+    source:
+      type: documents
+      section: datafiles
+      file: _my_data/colors.yml
+      path: Colors
+  label: Something
+  name: something
+  default: green
 pages:
 - _posts/my-draft-page.md
