@@ -9,4 +9,5 @@ fields:
   config:
     required: true
 pages:
+- _posts/Example.md
 - _posts/dun-dun-dun.md
