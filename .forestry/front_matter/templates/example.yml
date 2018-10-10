@@ -9,5 +9,13 @@ fields:
 - type: list
   name: list_b
   label: List B
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - one
+    - two
+    - three
 pages:
 - _posts/2018-07-10-a-new-pope.md
