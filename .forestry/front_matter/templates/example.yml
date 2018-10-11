@@ -17,5 +17,14 @@ fields:
     - one
     - two
     - three
+- type: field_group_list
+  label: What
+  name: what
+  fields:
+  - type: text
+    name: name
+    label: Name
+  config:
+    labelField: name
 pages:
 - _posts/2018-07-10-a-new-pope.md
