@@ -8,6 +8,8 @@ sections:
   path: README.md
   label: README
   read_only: true
+- type: heading
+  label: Content
 - type: jekyll-posts
   label: Posts
   create: all
