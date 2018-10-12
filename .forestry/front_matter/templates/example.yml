@@ -3,28 +3,9 @@ label: Example
 hide_body: true
 is_partial: false
 fields:
-- type: list
-  name: list_a
-  label: List A
-- type: list
-  name: list_b
-  label: List B
-  config:
-    use_select: true
-    source:
-      type: simple
-    options:
-    - one
-    - two
-    - three
-- type: field_group_list
-  label: What
-  name: what
-  fields:
-  - type: text
-    name: name
-    label: Name
-  config:
-    labelField: name
+- type: text
+  name: layout
+  label: Layout
+  default: example
 pages:
 - _posts/2018-07-10-a-new-pope.md
