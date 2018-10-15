@@ -1,9 +1,0 @@
----
-label: Visible Layout
-hide_body: false
-is_partial: false
-fields:
-- type: text
-  label: layout
-  name: layout
-  default: visible-layout
