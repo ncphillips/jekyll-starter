@@ -1,0 +1,8 @@
+---
+label: Toot
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: toot
+  label: Toot
