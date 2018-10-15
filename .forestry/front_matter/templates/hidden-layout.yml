@@ -1,0 +1,10 @@
+---
+label: Hidden Layout
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: my-hidden-layout
