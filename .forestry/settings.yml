@@ -8,11 +8,6 @@ sections:
   path: "~wooo.md"
   label: About
   read_only: true
-- type: directory
-  path: _my_data
-  label: Datafiles
-  create: all
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
