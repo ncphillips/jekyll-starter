@@ -8,3 +8,5 @@ fields:
   label: Layout
   hidden: true
   default: cakes
+pages:
+- _posts/2018-07-10-a-new-pope.md
