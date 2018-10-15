@@ -6,3 +6,5 @@ fields:
 - type: text
   name: toot
   label: Toot
+pages:
+- _people/nolan.md
