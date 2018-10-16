@@ -6,5 +6,11 @@ fields:
 - type: text
   name: toot
   label: Toot
+- type: select
+  config:
+    source:
+      type: simple
+  label: Data File
+  name: data_file
 pages:
 - _people/nolan.md
