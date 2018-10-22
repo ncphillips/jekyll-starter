@@ -13,6 +13,10 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: jekyll-pages
+  label: Other
+  create: none
+  match: "**/*"
 - type: heading
   label: Data
 - type: directory
