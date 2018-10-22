@@ -4,17 +4,12 @@ auto_deploy: false
 admin_path: "/edit"
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: Test
-  create: all
-  match: "**/*"
+- type: heading
+  label: Content
 - type: document
   path: README.md
   label: README
   read_only: true
-- type: heading
-  label: Content
 - type: jekyll-posts
   label: Posts
   create: all
