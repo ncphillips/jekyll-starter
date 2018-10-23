@@ -8,15 +8,14 @@ sections:
   path: README.md
   label: README
   read_only: true
-- type: heading
-  label: Content
 - type: jekyll-posts
   label: Posts
   create: all
+- type: heading
+  label: Content
 - type: jekyll-pages
   label: Other
   create: none
-  match: "**/*"
 - type: heading
   label: Data
 - type: directory
