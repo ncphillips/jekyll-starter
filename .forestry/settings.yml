@@ -4,18 +4,18 @@ auto_deploy: false
 admin_path: "/edit"
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: 'Posts '
-  create: all
-- type: heading
-  label: Cool Content
-- type: jekyll-pages
-  label: Other
-  create: none
 - type: document
   path: README.md
   label: README
   read_only: true
+- type: heading
+  label: Cool Content
+- type: jekyll-posts
+  label: 'Posts '
+  create: all
+- type: jekyll-pages
+  label: Other
+  create: none
 - type: heading
   label: Data
 - type: directory
