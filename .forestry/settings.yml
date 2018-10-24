@@ -4,11 +4,11 @@ auto_deploy: false
 admin_path: "/edit"
 webhook_url: 
 sections:
-- type: heading
-  label: Cool Content
 - type: jekyll-posts
   label: 'Posts '
   create: all
+- type: heading
+  label: Cool Content
 - type: jekyll-pages
   label: Other
   create: none
