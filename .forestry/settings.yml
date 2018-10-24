@@ -5,7 +5,7 @@ admin_path: "/edit"
 webhook_url: 
 sections:
 - type: jekyll-posts
-  label: Posts
+  label: Posts T
   create: all
 - type: heading
   label: Content
