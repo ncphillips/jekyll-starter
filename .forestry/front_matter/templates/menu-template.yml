@@ -12,4 +12,5 @@ fields:
   label: Menu
   default: lunch-menu
 pages:
+- _posts/2.md
 - _posts/1.md
