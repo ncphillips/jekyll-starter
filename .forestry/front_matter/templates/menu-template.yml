@@ -1,0 +1,15 @@
+---
+label: Menu Template
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: menus
+  label: Menus
+  default: breakfast-menu
+- type: text
+  name: menu
+  label: Menu
+  default: lunch-menu
+pages:
+- _posts/1.md
